@@ -1,0 +1,61 @@
+test_assign_loop_variable_to_privvar_makes_it_local_2.o: \
+ ../../../tests/regression/test_assign_loop_variable_to_privvar_makes_it_local_2.c \
+ /usr/include/stdc-predef.h ../../../fix-include/CL/cl.h \
+ ../../../include/CL/cl.h ../../../fix-include/CL/cl_platform.h \
+ ../../../include/CL/cl_platform.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/5/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/5/include/stddef.h \
+ ../../../include/poclu.h ../../../include/CL/opencl.h \
+ ../../../fix-include/CL/cl_gl.h ../../../include/CL/cl_gl.h \
+ ../../../include/CL/cl_gl_ext.h ../../../include/CL/cl_ext.h \
+ /usr/include/string.h /usr/include/xlocale.h
+
+/usr/include/stdc-predef.h:
+
+../../../fix-include/CL/cl.h:
+
+../../../include/CL/cl.h:
+
+../../../fix-include/CL/cl_platform.h:
+
+../../../include/CL/cl_platform.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/5/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/arm-linux-gnueabihf/sys/cdefs.h:
+
+/usr/include/arm-linux-gnueabihf/bits/wordsize.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h:
+
+/usr/include/arm-linux-gnueabihf/bits/wchar.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/5/include/stddef.h:
+
+../../../include/poclu.h:
+
+../../../include/CL/opencl.h:
+
+../../../fix-include/CL/cl_gl.h:
+
+../../../include/CL/cl_gl.h:
+
+../../../include/CL/cl_gl_ext.h:
+
+../../../include/CL/cl_ext.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:

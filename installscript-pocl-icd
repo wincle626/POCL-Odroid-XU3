@@ -1,0 +1,14 @@
+export PATH=$PATH:/root/enpower/llvm/llvm_37/install/bin:/root/enpower/pocl/hwloc/hwloc-1.11.2/install/bin:/root/enpower/pocl/libtool/libtool-2.4.6/install/bin
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/root/enpower/llvm/llvm_37/install/lib:/root/enpower/pocl/ocl-icd/ocl-icd-2.2.9/install/lib:/root/enpower/pocl/hwloc/hwloc-1.11.2/install/lib:/root/enpower/pocl/libtool/libtool-2.4.6/install/lib
+
+export C_INCLUDE_PATH=$C_INCLUDE_PATH:/root/enpower/llvm/llvm_37/install/include:/root/enpower/pocl/ocl-icd/ocl-icd-2.2.9/install/include:/root/enpower/pocl/hwloc/hwloc-1.11.2/install/include:/root/enpower/pocl/libtool/libtool-2.4.6/install/include
+
+export CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:/root/enpower/llvm/llvm_37/install:/root/enpower/pocl/ocl-icd/ocl-icd-2.2.9/install/include:/root/enpower/pocl/hwloc/hwloc-1.11.2/install/include:/root/enpower/pocl/libtool/libtool-2.4.6/install/include
+
+CC=clang
+
+CXX=clang++
+
+../configure --enable-shared --prefix=/root/enpower/pocl/pocl-git-icd/install --enable-icd --disable-direct-linkage OCL_ICD_CFLAGS=-I/root/enpower/pocl/ocl-icd/ocl-icd-2.2.9/install/include/ OCL_ICD_LIBS=-L/root/enpower/pocl/ocl-icd/ocl-icd-2.2.9/install/include HWLOC_CFLAGS=-I/root/enpower/pocl/hwloc/hwloc-1.11.2/install/include HWLOC_LIBS=-L/root/enpower/pocl/hwloc/hwloc-1.11.2/install/lib LDFLAGS=-L/root/enpower/pocl/libtool/libtool-2.4.6/install/lib CFLAGS=-I/root/enpower/pocl/libtool/libtool-2.4.6/install/include
+

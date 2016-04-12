@@ -1,0 +1,90 @@
+image_query_funcs-image_query_funcs.o: \
+ ../../../tests/kernel/image_query_funcs.c /usr/include/stdc-predef.h \
+ /usr/include/assert.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h /usr/include/stdio.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/5/include/stddef.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/5/include/stdarg.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /usr/include/stdlib.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/string.h ../../../include/CL/opencl.h \
+ ../../../fix-include/CL/cl.h ../../../include/CL/cl.h \
+ ../../../fix-include/CL/cl_platform.h ../../../include/CL/cl_platform.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/5/include/stdint.h \
+ /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ ../../../fix-include/CL/cl_gl.h ../../../include/CL/cl_gl.h \
+ ../../../include/CL/cl_gl_ext.h ../../../include/CL/cl_ext.h \
+ ../../../include/poclu.h
+
+/usr/include/stdc-predef.h:
+
+/usr/include/assert.h:
+
+/usr/include/features.h:
+
+/usr/include/arm-linux-gnueabihf/sys/cdefs.h:
+
+/usr/include/arm-linux-gnueabihf/bits/wordsize.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h:
+
+/usr/include/stdio.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/5/include/stddef.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types.h:
+
+/usr/include/arm-linux-gnueabihf/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/5/include/stdarg.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdio_lim.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
+
+/usr/include/string.h:
+
+../../../include/CL/opencl.h:
+
+../../../fix-include/CL/cl.h:
+
+../../../include/CL/cl.h:
+
+../../../fix-include/CL/cl_platform.h:
+
+../../../include/CL/cl_platform.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/5/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/arm-linux-gnueabihf/bits/wchar.h:
+
+../../../fix-include/CL/cl_gl.h:
+
+../../../include/CL/cl_gl.h:
+
+../../../include/CL/cl_gl_ext.h:
+
+../../../include/CL/cl_ext.h:
+
+../../../include/poclu.h:

@@ -1,0 +1,11 @@
+
+OCL_ICD_VENDORS="/root/enpower/pocl/pocl-git-icd/build/ocl-vendors"
+export OCL_ICD_VENDORS
+
+OPENCL_VENDOR_PATH="/root/enpower/pocl/pocl-git-icd/build/ocl-vendors"
+export OPENCL_VENDOR_PATH
+
+POCL_BUILDING=1
+export POCL_BUILDING
+
+POAT_TESTSUITES=""
